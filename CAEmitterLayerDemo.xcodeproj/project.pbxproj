@@ -13,6 +13,10 @@
 		0479BECF1BF881A7002176C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0479BECD1BF881A7002176C3 /* Main.storyboard */; };
 		0479BED11BF881A7002176C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0479BED01BF881A7002176C3 /* Assets.xcassets */; };
 		0479BED41BF881A7002176C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0479BED21BF881A7002176C3 /* LaunchScreen.storyboard */; };
+		0479BEDC1BF88407002176C3 /* dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 0479BEDB1BF88407002176C3 /* dot.png */; };
+		0479BEDF1BF885EA002176C3 /* CAEmitterLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479BEDE1BF885EA002176C3 /* CAEmitterLayerView.m */; };
+		0479BEE21BF8887E002176C3 /* SnowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479BEE11BF8887E002176C3 /* SnowView.m */; };
+		0479BEE51BF88B61002176C3 /* RainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479BEE41BF88B61002176C3 /* RainView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,13 @@
 		0479BED01BF881A7002176C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0479BED31BF881A7002176C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0479BED51BF881A7002176C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0479BEDB1BF88407002176C3 /* dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot.png; sourceTree = "<group>"; };
+		0479BEDD1BF885EA002176C3 /* CAEmitterLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAEmitterLayerView.h; sourceTree = "<group>"; };
+		0479BEDE1BF885EA002176C3 /* CAEmitterLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAEmitterLayerView.m; sourceTree = "<group>"; };
+		0479BEE01BF8887E002176C3 /* SnowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowView.h; sourceTree = "<group>"; };
+		0479BEE11BF8887E002176C3 /* SnowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowView.m; sourceTree = "<group>"; };
+		0479BEE31BF88B61002176C3 /* RainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainView.h; sourceTree = "<group>"; };
+		0479BEE41BF88B61002176C3 /* RainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +73,15 @@
 				0479BEC81BF881A7002176C3 /* AppDelegate.m */,
 				0479BECA1BF881A7002176C3 /* ViewController.h */,
 				0479BECB1BF881A7002176C3 /* ViewController.m */,
+				0479BEDD1BF885EA002176C3 /* CAEmitterLayerView.h */,
+				0479BEDE1BF885EA002176C3 /* CAEmitterLayerView.m */,
+				0479BEE31BF88B61002176C3 /* RainView.h */,
+				0479BEE41BF88B61002176C3 /* RainView.m */,
+				0479BEE01BF8887E002176C3 /* SnowView.h */,
+				0479BEE11BF8887E002176C3 /* SnowView.m */,
 				0479BECD1BF881A7002176C3 /* Main.storyboard */,
 				0479BED01BF881A7002176C3 /* Assets.xcassets */,
+				0479BEDB1BF88407002176C3 /* dot.png */,
 				0479BED21BF881A7002176C3 /* LaunchScreen.storyboard */,
 				0479BED51BF881A7002176C3 /* Info.plist */,
 				0479BEC41BF881A7002176C3 /* Supporting Files */,
@@ -137,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0479BED41BF881A7002176C3 /* LaunchScreen.storyboard in Resources */,
+				0479BEDC1BF88407002176C3 /* dot.png in Resources */,
 				0479BED11BF881A7002176C3 /* Assets.xcassets in Resources */,
 				0479BECF1BF881A7002176C3 /* Main.storyboard in Resources */,
 			);
@@ -149,7 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0479BEE21BF8887E002176C3 /* SnowView.m in Sources */,
 				0479BECC1BF881A7002176C3 /* ViewController.m in Sources */,
+				0479BEE51BF88B61002176C3 /* RainView.m in Sources */,
+				0479BEDF1BF885EA002176C3 /* CAEmitterLayerView.m in Sources */,
 				0479BEC91BF881A7002176C3 /* AppDelegate.m in Sources */,
 				0479BEC61BF881A7002176C3 /* main.m in Sources */,
 			);
